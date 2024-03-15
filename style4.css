@@ -1,0 +1,77 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.course-block {
+  width: calc(33.33% - 20px); /* Adjust as needed */
+  margin-bottom: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.course-block h2 {
+  margin-top: 0;
+}
+
+.button-structure {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap */
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.button-structure button {
+  flex: 1; /* Equal width for buttons */
+  padding: 10px 20px;
+  border: none;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  border-radius: 5px;
+  margin-right: 5px; /* Add margin between buttons */
+}
+
+.button-structure button:last-child {
+  width: 70%; /* Make the last button take up full width */
+  margin-right: 10; /* Remove margin for the last button in each row */
+}
+
+.explore-category {
+  display: flex;
+  align-items: center;
+}
+
+.explore-category span {
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+/* Different background colors for each block */
+.course-block:nth-child(1) {
+  background-color: #edebdf; /* NEET */
+}
+
+.course-block:nth-child(2) {
+  background-color: #daf0da; /* IIT JEE */
+}
+
+.course-block:nth-child(3) {
+  background-color: #cdf0f1; /* School Preparation */
+}
+
+.course-block:nth-child(4) {
+  background-color: #f4e2df; /* Govt Job Exams */
+}
+
+.course-block:nth-child(5) {
+  background-color: #ddcde3; /* Defence */
+}
+
+.course-block:nth-child(6) {
+  background-color: #f4e7d8; /* CA */
+}
