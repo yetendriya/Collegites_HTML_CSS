@@ -4,3 +4,6 @@
 
 ![image](https://github.com/yetendriya/Collegites_HTML_CSS/assets/112620897/0daf1527-fb27-43c5-a3ea-575cf5f53bc2)
 
+![image](https://github.com/yetendriya/Collegites_HTML_CSS/assets/112620897/29483924-f035-4eb8-af0d-e7708d65701f)
+
+
